@@ -25,3 +25,7 @@
     })
     
 }
+
+//<input type="text">inch<br>
+//  <button>계산</button>
+//  <p></p>
