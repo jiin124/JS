@@ -39,3 +39,7 @@
     })
     
 }
+
+//이 코드를 실행시켜서 방향 키를 누르면 별이 움직인다. 
+//html 페이지에  <link rel='http://developer.mozilla.org/en-US/docs/Web/API/keyboardEvent/keyCode'>
+//<h1>★</h1> 를 입력해준다
