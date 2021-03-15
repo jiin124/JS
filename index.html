@@ -5,14 +5,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <script src="object.js"></script>
     <link rel="stylesheet" href="object.css">
+    <link rel='http://developer.mozilla.org/en-US/docs/Web/API/keyboardEvent/keyCode'>
+
+   
+
     
 </head>
 <body>
-    <h1>클릭횟수:0</h1>
-    <button id="connect">이벤트 연결</button>
-    <button id="disconnect">이벤트 제거</button>
-    <p>이벤트 연결 상태:해제</p>
+    <header>
+        <h1>Jiin Webpage</h1>
+
+    </header>
+    <hr>
+    <nav>
+        <a href="#">HOME</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">CONTACT US</a>
+    </nav>
+    <hr>
+    <article>
+        <h1>REGISTRATION</h1>
+        <div>
+            <form>
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <table>
+                        <tr>
+                            <td><label for="name">First Name</label></td>
+                            <td><input id="name" type="text"/></td>
+                            <td><label for="name">Last Name</label></td>
+                            <td><input id="name" type="text"/></td>
+                        </tr>
+                        <tr>
+                            <td><label for="mail">Email Address</label></td>
+                            <td><input id="mail" type="email"/></td>
+                            <td><label for="tel">Mobile Number</label></td>
+                            <td><input id="tel" type="tel"/></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <fieldset>
+                    <legend>Address</legend>
+                    <table>
+                        <tr>
+                            <td><label for="street">Street</label></td>
+                            <td><input id="street" type="text"/></td>
+                            <td><label for="area">Area</label></td>
+                            <td><input id="name" type="text"/></td>
+                        </tr>
+                        <tr>
+                            <td><label for="emirate">Emirate</label></td>
+                            <td><input id="emirate" type="text"/></td>
+
+                        </tr>
+                    </table>
+                </fieldset>
+                <input type="submit"/>
+            </form>
+        </div>
+        
+    </article>
+    <hr>
+    <footer>
+        <h1>Jiin Webpage</h1>
+        <div id="mainpage">
+            <h4>MAIN PAGE</h4>
+            <ul>
+                <li>Sell with US</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Promos</li>
+            </ul>
+        </div>
+        <div id="policy">
+            <h4>POLICY</h4>
+            <ul>
+                <li>Terms of Usage</li>
+                <li>Privacy Policy</li>
+                <li>return Policy</li>
+
+            </ul>
+
+        </div>
+        <div id="subcribe">
+            <h4>SUBSCRIBE</h4>
+            <p>Laborum ad magna anim dolore sunt cillum esse in laboris excepteur amet consequat.</p>
+            <input id="email" type="email"/>
+            <input type="submit">
+            
+        </div>
+
+    </footer>
+
+
 </body>
 </html>
