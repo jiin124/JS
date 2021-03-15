@@ -1,0 +1,45 @@
+header{
+    height: 80px;
+    width: 900px;
+    margin:0 auto;
+    position:relative;
+
+}
+header>h1{
+    font-family:sans-serif;
+    position:absolute;
+    left:20px;
+
+}
+nav>a{
+    padding:2px 10px;
+
+}
+
+article>div>form>fieldset{
+    width:700px;
+    margin:0 auto;
+
+    overflow: hidden;
+
+
+}
+td{
+    padding:2px 10px;
+}
+footer>h1{
+    width:240px;
+    float:left;
+}
+footer>#mainpage{
+    width:240px;
+    float:left;
+}
+footer>#policy{
+    width:240px;
+    float:left;
+}
+footer>#subscribe{
+    width:240px;
+    float:left;
+}
